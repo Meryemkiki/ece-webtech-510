@@ -1,4 +1,4 @@
-const http = require('http');
+/*const http = require('http');
 const url = require('url');
 const fs = require('fs');
 
@@ -40,4 +40,43 @@ const serverHandle = function (req, res) {
   }
 };
 
-http.createServer(serverHandle).listen(8080);
+http.createServer(serverHandle).listen(8080);*/
+const express = require('express');
+const fs = require('fs');
+const app = express();
+const PORT = 8080;
+
+// Route pour la page d'accueil
+app.get('/', (req, res) => {
+  res.send('Bienvenue sur la page d\'accueil!');
+});
+
+// Route pour la page /hello
+app.get('/hello', (req, res) => {
+  res.send('Hello, webtech-510');
+});
+
+// Route pour la page /about
+app.get('/about', (req, res) => {
+  const filePath = './content/about.json';
+
+  fs.readFile(filePath, 'utf8', (err, data) => {
+    if (err) {
+      res.status(500).send('Erreur interne du serveur');
+      return;
+    }
+
+    const jsonData = JSON.parse(data);
+    res.json(jsonData);
+  });
+});
+
+// Gestion de page non trouvée
+app.use((req, res) => {
+  res.status(404).send('Page non trouvée');
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+});
+
