@@ -1,12 +1,8 @@
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
- 
-export default function Layout({ children }) {
-  return (
-    <>
-      <Navbar />
-      <main>{children}</main>
-      <Footer />
-    </>
-  )
+import  '../styles/global.css'
+import type {AppProps} from 'next/app'
+function MyApp ({ Component, pageProps }: AppProps){
+  return <Component {...pageProps}/>
+
+
 }
+export default MyApp
