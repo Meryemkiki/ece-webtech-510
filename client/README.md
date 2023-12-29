@@ -1,11 +1,10 @@
 <p align="center" style="margin-top: 120px">
   <img width="1040" alt="Cover" src="https://github.com/timtbdev/Next.js-Blog-App/assets/25026241/f4d08597-8f6e-4a2e-8807-0490eb7859be">
 
-  <h1 align="center">Multi-User, Full-stack Blogging Applicaition</h1>
+  <h1 align="center">Blogging Applicaition</h1>
 
 <p align="center">
   The <em>all-in-one</em> starter kit <br/>
-  for building multi-user, full-stack blogging applications.
 </p>
 
 <p align="center">
@@ -20,31 +19,6 @@
 
 The [Blogging application](https://ub.cafe) is a multi-user, full-stack Next.js app with Supabase support. Built with [Next.js App Router](https://nextjs.org/docs/app), [Supabase Auth](https://supabase.com/docs/guides/auth) and [Supabase Database](https://supabase.com/docs/guides/database), [Supabase Storage](https://supabase.com/docs/guides/storage).
 
-## 💻 Frontend
-
-<img width="1040" alt="Cover" src="https://github.com/timtbdev/Next.js-Blog-App/assets/25026241/d263479c-853f-40ed-aed4-58c5cbb8b14c">
-
-## 📹 Preview
-
-https://github.com/timtbdev/Next.js-Blog-App/assets/25026241/c0488b1b-ff48-4871-849d-806f09c39322
-
-## 🧰 Backend
-
-<img width="1040" alt="Cover" src="https://github.com/timtbdev/Next.js-Blog-App/assets/25026241/c5cd3077-b955-43fd-b6ea-2f3b5f9297c9">
-
-## 📹 Preview
-
-https://github.com/timtbdev/Next.js-Blog-App/assets/25026241/29c35c5f-ad67-4f5b-9943-0fd0d94448b8
-
-## 💾 Database Schema
-
-### Database schema & dummy data: [here](./database_schema/)
-
-<img width="992" alt="Screenshot 2023-06-10 at 10 00 18 PM" src="https://github.com/timtbdev/Next.js-Blog-App/assets/25026241/729e2d22-2467-4d5b-9c6c-e6a5ea58c717">
-
-## 📊 Google Lighthouse performance statistics
-
-<img width="992" alt="Screenshot 2023-06-10 at 10 00 18 PM" src="https://github.com/timtbdev/Next.js-Blog-App/assets/25026241/2a4f693b-5c0d-4647-8444-291e1f635ee7">
 
 ## 📚 Tech Stacks
 
@@ -117,16 +91,3 @@ Want to get up and running quickly? Follow these steps:
 That's it! You should now be able to access the app at http://localhost:3000
 
 Admin dashboard will also be available on http://localhost:300/editor/posts
-
-## Contributing
-
-- [Start a discussion](https://timtb.dev/contact) with a question, piece of feedback, or idea you want to share with me.
-- [Open an issue](https://github.com/timtbdev/Next.js-Blog-App/issues) if you believe you've encountered a bug with the starter kit.
-
-## 🙇 Author
-
-- Tim ([@timtbdev](https://twitter.com/timtbdev))
-
-## License
-
-Licensed under the [MIT license](https://github.com/shadcn/taxonomy/blob/main/LICENSE.md).

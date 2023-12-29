@@ -11,7 +11,7 @@ export const defaultEditorContent = {
       content: [
         {
           type: "text",
-          text: " This is an full-stack blogging app. Built with Next.js 13 and Supabase",
+          text: " This is an full-stack blogging app. Built with Next.js 14 and Supabase",
         },
       ],
     },

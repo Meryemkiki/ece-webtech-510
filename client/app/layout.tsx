@@ -1,4 +1,5 @@
 import { TailwindIndicator } from "@/components/main";
+import { ThemeProvider } from "@/components/main/header/toggle/theme-provider";
 import { seoData } from "@/config/root/seo";
 import { getUrl } from "@/lib/utils";
 import "@/styles/tailwind.css";
@@ -130,10 +131,19 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={fontSans.variable}>
         <div className="bg-white font-sans">
-          {children}
-          <VercelAnalytics />
+        <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            {children}
+            <VercelAnalytics />
           <Toaster position="top-center" />
           <TailwindIndicator />
+          </ThemeProvider>
+          {/*{children}*/}
+
         </div>
       </body>
     </html>
