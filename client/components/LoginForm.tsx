@@ -1,10 +1,10 @@
 "use client";
 
-import { createBrowserClient } from '@supabase/ssr'
 import React from 'react'
 import { Button } from './ui/button'
 import { FaGithub } from 'react-icons/fa'
 import { usePathname } from 'next/navigation';
+import { createBrowserClient } from '@supabase/ssr'
 
 export default function LoginForm() {
 
@@ -19,7 +19,7 @@ export default function LoginForm() {
         supabase.auth.signInWithOAuth({
             provider:"github",
             options:{
-                redirectTo: location.origin + "/auth/callback?next="+pathname,
+                redirectTo: location.origin + "/auth/callback?next=" + pathname,
             },
         });
     };
@@ -32,7 +32,7 @@ export default function LoginForm() {
             <FaGithub/>
             Login
         </Button> 
-        /*//ece_webtech
+        
     </div>
   )
 }
