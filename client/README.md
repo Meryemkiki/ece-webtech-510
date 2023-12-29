@@ -60,7 +60,7 @@ Pour contribuer à ECE Blog, suivez ces étapes :
 
 Nous avons eu un conflit lors d'un push avec le dossier client et difficultés à envoyer les requêtes aux serveur
 
-Contributeurs qui on contribué à ECE Blog !
+## Contributeurs qui ont contribué à ECE Blog !
 SIPEHOU Muriel
 MJAHED Noura
-KAKHAS Meryem
+KHIAS Meryem
