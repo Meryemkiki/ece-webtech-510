@@ -1,93 +1,62 @@
-<p align="center" style="margin-top: 120px">
-  <img width="1040" alt="Cover" src="https://github.com/timtbdev/Next.js-Blog-App/assets/25026241/f4d08597-8f6e-4a2e-8807-0490eb7859be">
+#                                           ECE Blog
 
-  <h1 align="center">Blogging Applicaition</h1>
+ECE Blog est une plateforme de blogging conçue pour permettre de partager et d'échanger sur des sujets tel que le sport, la technologie, la santé et l'actualité.
 
-<p align="center">
-  The <em>all-in-one</em> starter kit <br/>
-</p>
+## Prérequis
+Avant de commencer, assurez-vous d'avoir satisfait aux exigences suivantes :
+* Vous avez installé la dernière version de `Node.js` et `npm`.
+* Vous disposez d'une machine `Windows/Linux/Mac`. Tous les systèmes d'exploitation sont pris en charge.
 
-<p align="center">
-  <a href="#introduction"><strong>Introduction</strong></a> ·
-  <a href="https://ub.cafe"><strong>Demo</strong></a> ·
-  <a href="#"><strong>Guide</strong></a> ·
-  <a href="#contributing"><strong>Contributing</strong></a>
-</p>
-<br/>
+## Exécution de l'application localement
 
-## Introduction
+    Node.js (Version : >=18.x)
+    Gestionnaire de packages Node (NPM) - inclus dans Node.js
+    PostgreSQL (local ou distant)
 
-The [Blogging application](https://ub.cafe) is a multi-user, full-stack Next.js app with Supabase support. Built with [Next.js App Router](https://nextjs.org/docs/app), [Supabase Auth](https://supabase.com/docs/guides/auth) and [Supabase Database](https://supabase.com/docs/guides/database), [Supabase Storage](https://supabase.com/docs/guides/storage).
+Suivez ces étapes :
 
+Clonez le dépôt sur votre appareil local.
 
-## 📚 Tech Stacks
+    git clone ...
 
-- App Router,
-- Server Actions
-- Server and Client Components
-- Data Fetching, Insertion using [Supabase-JS-Client](https://supabase.com/docs/reference/javascript/introduction)
-- API Routes and Middlewares
-- Cookie based Authentication using [Supabase Auth](https://supabase.com/docs/guides/auth/auth-helpers/nextjs)
-- CMS using [Supabase Database](https://supabase.com/docs/guides/database)
-- Metadata files
-- Open Graph Image Generation using [Vercel/Og](https://vercel.com/docs/concepts/functions/edge-functions/og-image-generation)
-- Image Upload using [Uppy](https://uppy.io) and [Supabase Storage](https://supabase.com/docs/guides/storage/uploads)
-- Styled using [Tailwind CSS](https://tailwindcss.com/)
-- UI Components using [HeadlessUI](https://headlessui.com), [Radix-UI](https://radix-ui.com), [Shadcn-UI](https://ui.shadcn.com/)
-- WYSIWYG editor using [Novel](https://novel.sh/)
-- Loading, Error, NotFound, Empty pages
-- Sending emails using [NodeMailer](https://nodemailer.com) and [React Email](https://https://react.email/), [Gmail](https://gmail.com)
-- Forms using [React-Hook-Forms](https://www.react-hook-form.com/)
-- Toasts using [React-Hot-Toast](https://react-hot-toast.com/)
-- Validations using [Zod](https://zod.dev)
-- Icons using [HeroIcons](https://heroicons.com/) & [Lucide-Icon](https://lucide.dev/icons/)
-- Newsletter using [ConvertKit](https://convertkit.com/)
-- Drawer using [Vaul](https://vaul.emilkowal.ski/)
-- Written in [TypeScript](https://www.typescriptlang.org/)
+Configurez votre Base de données Supabase et l'Authentification avec les Connexions Sociales
 
-## ⌨️ Code Quality
+Configurez votre fichier .env en suivant les recommandations du fichier .env.example.
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [Prettier](https://prettier.io/)
-- [ESLint](https://eslint.org/)
+Exécutez npm installation dans le répertoire racine
 
-## 📈 Miscellaneous
+    npm installation --legacy-peer-deps
 
-- [Vercel Analytics](https://vercel.com/analytics)
+Exécutez npm run dev dans le répertoire racine
 
-# ⚙️ Getting Started
+Vous devriez maintenant pouvoir accéder à l'application à l'adresse http://localhost:3000
 
-## Requirements
+## Schéma de base de donnée
+<img width="992" alt="Screenshot 2023-06-10 at 10 00 18 PM" src="https://github.com/timtbdev/Next.js-Blog-App/assets/25026241/729e2d22-2467-4d5b-9c6c-e6a5ea58c717">
 
-To run this app locally you need
+## Technologiques utilisés
+    Composants serveur et client
+    Récupération et insertion de données en utilisant Supabase-JS-Client
+    Routes d'API et intergiciels (middlewares)
+    Authentification basée sur les cookies en utilisant Supabase Auth
+    CMS en utilisant Base de données Supabase
+    Style avec Tailwind CSS
+    Rédigé en TypeScript
 
-- [Node.js (Version: >=18.x)](https://nodejs.org/en/download/)
-- Node Package Manager NPM - included in Node.js
-- [PostgreSQL (local or remote)](https://www.postgresql.org/download/)
+## Qualité du Code
+    TypeScript
+    Prettier
+    ESLint
 
-## Developer Quickstart
+Pour contribuer à ECE Blog, suivez ces étapes :
 
-Want to get up and running quickly? Follow these steps:
+    Forkez ce dépôt.
+    Créez une branche : git checkout -b nom_de_votre_branche.
+    Faites vos changements et commitez-les : git commit -m 'Ajout de ma fonctionnalité'
+    Poussez vers la branche originale : git push origin ECE-Blog/nom_de_votre_branche
+    Créez la pull request.
 
-- [Clone the repository](https://help.github.com/articles/cloning-a-repository/) it to your local device.
-
-  ```sh
-  git clone https://github.com/timtbdev/Next.js-Blog-App.git
-  ```
-
-- Set up your [Supabase Database](https://supabase.com/docs/guides/database) and Auth wit with [Social Logins](https://supabase.com/docs/guides/auth/social-login)
-- Set up your [ConverKit](https://ihatetomatoes-nextjs-101.vercel.app/post/convertkit-api-variables)
-- Set up your `.env` file using the recommendations in the `.env.example` file.
-- Run `npm installation` in the root directory
-  ```sh
-  npm installation --legacy-peer-deps
-  ```
-- Run `npm run dev` in the root directory
-- Want it even faster? Just use
-  ```sh
-  npm run d
-  ```
-
-That's it! You should now be able to access the app at http://localhost:3000
-
-Admin dashboard will also be available on http://localhost:300/editor/posts
+Contributeurs qui on contribué à ECE Blog !
+SIPEHOU Muriel
+MJAHED Noura
+KAKHAS Meryem
