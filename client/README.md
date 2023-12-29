@@ -56,6 +56,10 @@ Pour contribuer à ECE Blog, suivez ces étapes :
     Poussez vers la branche originale : git push origin ECE-Blog/nom_de_votre_branche
     Créez la pull request.
 
+## Informations supplémentaires
+
+Nous avons eu un conflit lors d'un push avec le dossier client et difficultés à envoyer les requêtes aux serveur
+
 Contributeurs qui on contribué à ECE Blog !
 SIPEHOU Muriel
 MJAHED Noura
