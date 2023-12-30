@@ -76,4 +76,4 @@
 
 ### Retour sur le cours
 
-NOus avons particulièrement apprécié les travaux pratiques qui nous ont permis de mettre en application les concepts théoriques. Cependant nous avons eu un problème technique au niveau dossier client niveau conflit de dossier et problème au niveau de Supabase côté back-end 
+Nous avons particulièrement apprécié les travaux pratiques qui nous ont permis de mettre en application les concepts théoriques. Cependant nous avons eu un problème technique au niveau dossier client niveau conflit de dossier et problème au niveau de Supabase côté back-end 
