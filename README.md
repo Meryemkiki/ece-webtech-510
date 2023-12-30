@@ -16,7 +16,7 @@
 
 ## Deliverables 
 
-### Vercel URL:
+### Vercel URL: https://ece-webtech-510.vercel.app/
   
 ### Supabase project URL :
   
