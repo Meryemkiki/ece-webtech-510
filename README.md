@@ -1,5 +1,5 @@
 
-# Blogging application et les TPs 
+# Site "Blog ECE" et les TPs 
 
  ## Prérequis : 
  ### Voici les commandes relatives 
